@@ -1,0 +1,55 @@
+.form-component{
+    max-width: 700px;
+    margin: auto;
+}
+.label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+.title-input{
+    width: 100%;
+    padding: 10px;
+    border:3px solid orange;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.para-input{
+    width: 100%;
+    padding: 10px;
+    border:3px solid  orange;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.title-input,.para-input{
+    font-size: 20px;
+    font-size: 700;
+    cursor: pointer;
+    outline: none;
+}
+.publish-btn{
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.default-blog-label{
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: grey;
+    font-size: 40px;
+    cursor: pointer;
+}

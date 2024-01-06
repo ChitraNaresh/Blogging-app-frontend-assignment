@@ -1,0 +1,37 @@
+.blog-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.blog-text{
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.blog-post{
+    min-height: 150px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 3px goldenrod;
+}
+.blog-icons-card{
+    text-align: end;
+}
+.blog-icon-btn{
+    color: red;
+    border-radius: 15px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.blog-icon-btn:hover{
+    border: none;
+    color:green;
+}
+.link-el{
+    text-decoration: none;
+    color: #000;
+}

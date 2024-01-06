@@ -1,0 +1,75 @@
+.main-signin-bg{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 10px;
+}
+.form-card-container{
+   background-color: lightblue;
+   max-width: 600px;
+   border-radius: 10px;
+   padding: 10px 30px;
+}
+.page-name{
+    font-size: 40px;
+    text-align: center;
+}
+/* .each-input{
+    display: flex;
+} */
+.auth-input-el{
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.err-msg{
+    color: red;
+    font-size: 10px;
+    word-break: break-all;
+    max-width: 200px;
+}
+.auth-label{
+    margin: 0px;
+}
+.submit-auth-btn{
+    background-color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 600;
+   text-transform: capitalize;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.eye-icon{
+  position: relative;
+  top: -25px;
+  right: -90%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.join-link{
+    color: blue;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.join-link:hover{
+      color: blue;
+}
+.each-input-div{
+    position: relative;
+}
+.password-err{
+    position: absolute;
+    top: 50px;
+}

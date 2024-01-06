@@ -1,0 +1,30 @@
+.home-page{
+   padding: 10px;
+}
+.blogs-home-text{
+    color: #3fc451;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+.blogs-container{
+    max-width: 1000px;
+    margin: auto;
+}
+@media screen and (min-width:548px) {
+    .blogs-container{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 20px;
+    }
+}
+@media screen and (min-width:990px) {
+    .blogs-container{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 20px;
+    }
+}

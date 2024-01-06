@@ -1,0 +1,27 @@
+.blog-img{
+    height: 300px;
+    width: 100%;
+    
+}
+.details-section{
+    padding: 20px;
+}
+.blog-details-card{
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 1px 3px gray;
+}
+.about-card{
+    padding: 20px;
+    background-color: #fff;
+}
+.blog-details-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.blog-details-para{
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+}

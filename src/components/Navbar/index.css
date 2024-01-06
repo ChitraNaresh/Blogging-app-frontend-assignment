@@ -1,0 +1,28 @@
+.nav-list-card{
+    list-style-type: none;
+    padding: 0px;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fca503;
+    height: 60px;
+    width: 100%;
+}
+.nav-list-card{
+    display: flex;
+}
+.app-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}.link{
+    text-decoration: none;
+    color: #000;
+  }
